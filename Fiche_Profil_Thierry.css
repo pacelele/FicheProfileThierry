@@ -7,7 +7,7 @@
     margin-top: 20px;
            
     }
-
+        /*HEADER STARTS HERE*/
 header h1{
     font-size: 50px;
     font-variant:small-caps;
@@ -23,7 +23,10 @@ p{
  text-align: center;
  margin-top: -0.5em ; 
 }
-   
+
+        /*HEARDER ENDS HERE*/
+
+        /*NAV BAR STARTS HERE*/
 ul{
     list-style-type:none;
     display:flex;
@@ -32,9 +35,13 @@ ul{
     font-weight:bold;
 }
 
+        /*ARTICLE STARTS HERE */
+       
 #metier h2{
     text-align: center;
 }
+
+         /* TABLE  STARTS HERE */
 table{
     width:100%;
 
@@ -53,4 +60,36 @@ table tr td{
 }
 td{
     width:6px;
+}
+
+.Tableau1 tbody tr:nth-child(2){
+    font-weight: bold;
+}
+.Tableau1 tbody tr:nth-child(7){
+    font-weight: bold;
+}
+.Couleur1{
+    background-color: #C9E24D;
+}
+.Couleur2{
+    background-color: #AACE3A;
+}
+.Couleur3{
+    background-color: #5B712C;
+}
+
+    /*Voici les couleurs pour le Tableau 3: #fff #d7dadd   #b0b6bd   #8a949d
+    #66737e #445361 #223645 */
+
+.Tab3Couleur1{
+    background-color: #fff;
+}
+.Tab3Couleur2{
+    background-color: #d7dadd;
+}
+.Tab3Couleur3{
+    background-color: #b0b6bd;
+}
+.Tab3Couleur4{
+    background-color:#8a949d;
 }
